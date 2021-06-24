@@ -1,0 +1,12 @@
+.fs-16 {
+  font-size: 16pt;
+}
+
+a {
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.a-txt-dec:hover {
+  text-decoration: underline;
+}
