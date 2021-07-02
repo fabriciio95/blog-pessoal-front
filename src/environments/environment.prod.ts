@@ -3,5 +3,6 @@ export const environment = {
   token: '',
   nome: '',
   id: 0,
-  foto: ''
+  foto: '',
+  host: 'http://localhost:8080'
 };
