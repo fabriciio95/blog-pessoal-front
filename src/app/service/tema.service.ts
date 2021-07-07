@@ -16,9 +16,7 @@ export class TemaService {
   }
 
   refreshToken() {
-   this.token = {
-     headers: new HttpHeaders().set('Authorization', environment.token)
-   }
+    this.token = { headers: new HttpHeaders().set('Authorization', environment.token) }
   }
 
   getAllTema(): Observable<Tema[]> {
