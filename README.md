@@ -1,27 +1,48 @@
-# BlogPessoal
+# Blog Pessoal
+[![NPM](https://img.shields.io/github/license/fabriciio95/blog-pessoal-front)](https://github.com/fabriciio95/blog-pessoal-front/blob/main/LICENSE) 
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.9.
+# Sobre o projeto
 
-## Development server
+Blog Pessoal Front é uma aplicação front-end desenvolvida durante o bootcamp realizado pela [Generation Brasil](https://brazil.generation.org) para fins de aprendizado, onde usuários podem se cadastrar e fazer postagens temáticas.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## Modelo Lógico
+![Logico](https://github.com/fabriciio95/arquivos-read-me/blob/master/arquivos-rep-blogpessoal/modelo-logico.jpg)
 
-## Code scaffolding
+# Tecnologias utilizadas
+- HTML
+- CSS
+- Bootstrap
+- Typescript
+- Angular
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-## Build
+# Back-end
+[Blog Pessoal - Back-end](https://github.com/fabriciio95/blog-pessoal)
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
 
-## Running unit tests
+# Como executar o projeto localmente
+Pré-requisitos: npm
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+```bash
 
-## Running end-to-end tests
+# clonar repositório
+git clone https://github.com/fabriciio95/blog-pessoal-front
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+# Entre na pasta raiz do projeto:
+cd blog-pessoal-front
 
-## Further help
+# Baixe as dependências necessárias (isso pode levar alguns minutos):
+npm install
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+# Inicialize o servidor (isso também pode levar alguns minutos):
+ng serve
+
+# Vá para o browser e digite a url:
+http://localhost:4200
+```
+
+# Autor
+
+Fabricio Siqueira Macedo
+
+https://linkedin.com/in/fabricio-siqueira-macedo
